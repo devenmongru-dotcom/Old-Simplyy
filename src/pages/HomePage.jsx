@@ -67,7 +67,7 @@ export default function HomePage({ setPage }) {
               {[
                 { n:"72hr", label:"Design delivered",   sub:"From brief to mockup" },
                 { n:"1 wk", label:"Full site live",     sub:"Start to launch" },
-                { n:"~72hr", label:"Design turnaround",  sub:"From brief to mockup" },
+                { n:"$0", label:"No Upfront Cost",  sub:"Only subscription based" },
                 { n:"$149", label:"Starting /month",    sub:"No setup fees ever" },
               ].map(({ n, label, sub }) => (
                 <div key={label} style={{ background:"#fff", border:`1px solid ${C.border}`, borderRadius:14, padding:"24px 20px", boxShadow:"0 2px 12px rgba(0,0,0,0.04)" }}>
